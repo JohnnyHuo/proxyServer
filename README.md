@@ -1,3 +1,7 @@
+#Javascripting
+
+![alt text](javascripting.png)
+
 # Proxy Server
 
 This is a Proxy Server for Node.js submitted as the [pre-work](http://courses.codepath.com/snippets/intro_to_nodejs/prework) requirement for CodePath.
@@ -18,7 +22,6 @@ Completed:
 * [] Optional: `-h` argument prints CLI API
 
 Walkthrough Gif:
-[Add walkthrough.gif to the project root]
 
 ![Video Walkthrough](walkthrough.gif)
 
@@ -88,7 +91,8 @@ curl -v http://127.0.0.1:9000/asdf -d "hello proxy"
 < date: Sun, 13 Mar 2016 08:11:00 GMT
 <
 * Closing connection 0
-hello proxy```
+hello proxy
+```
 
 ### Configuration:
 
@@ -119,8 +123,3 @@ The follow http header(s) are supported:
 ##### `x-destination-url`
 
 Specify the destination url on a per request basis. Overrides and follows the same format as the `--url` argument.
-
-
-#Javascripting
-
-![alt text](javascripting.png)
